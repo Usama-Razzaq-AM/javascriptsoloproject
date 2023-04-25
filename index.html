@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./webfontkit-20230424-202732/stylesheet.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Basketball Scorecard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h2>Home</h2>
+            <p id="homeScore">0</p>
+            <div id="homeButtons">
+                <button id="homeIncrement1" onclick="homeIncrement1()">+1</button>
+                <button id="homeIncrement2" onclick="homeIncrement2()">+2</button>
+                <button id="homeIncrement3" onclick="homeIncrement3()">+3</button>
+            </div> <!--.homeButtons-->
+        </div> <!--.home-->
+
+        <div class="guest">
+            <h2>Guest</h2>
+            <p id="guestScore">0</p>
+            <div id="guestButtons">
+                <button id="guestIncrement1" onclick="guestIncrement1()">+1</button>
+                <button id="guestIncrement2" onclick="guestIncrement2()">+2</button>
+                <button id="guestIncrement3" onclick="guestIncrement3()">+3</button>
+            </div> <!--.homeButtons-->
+        </div> <!--.guest-->
+
+    </div> <!--.container-->
+    <script src="index.js"></script>
+</body>
+</html>
